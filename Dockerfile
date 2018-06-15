@@ -10,7 +10,7 @@ RUN /bin/mkdir -p /srv/logs
 
 WORKDIR /srv
 
-RUN npm install --silent socket.io express
+RUN npm install --silent socket.io express log4js
 RUN npm dedupe
 COPY index.js /srv/app.js
 EXPOSE 3000

@@ -1,0 +1,3 @@
+language: javascript
+nvm:
+ - 8.9
